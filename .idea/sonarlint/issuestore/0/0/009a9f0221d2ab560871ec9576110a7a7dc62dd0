@@ -1,7 +1,5 @@
 
-l
-java:S20956"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¨İ¢„8³”§Ò1
 q
-java:S2095!"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äçú’øÿÿÿÿ8´”§Ò1
-n
-java:S1845"QRename field "UPDATE" to prevent any misunderstanding/clash with method "update".(¿ëş¨8Ùå€Ò1
+java:S2095 "OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(äçú’øÿÿÿÿ8¯„ÓÒ1
+q
+java:S20955"OUse try-with-resources or close this "PreparedStatement" in a "finally" clause.(¾¢¥Êÿÿÿÿÿ8Á–ÛÒ1

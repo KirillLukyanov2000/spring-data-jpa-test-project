@@ -14,11 +14,11 @@ public class CustomerService {
         this.customerRepo = customerRepo;
     }
 
-    public Customer get(Long id){
+    public Customer get(Long id) {
         return customerRepo.getById(id).orElseThrow();
     }
 
-    public void update(Customer customer){
+    public void update(Customer customer) {
         customerRepo.update(customer);
     }
 
