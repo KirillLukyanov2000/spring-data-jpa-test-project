@@ -13,11 +13,11 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Optional;
 
-@Repository
+//@Repository
 public class CustomerRepoImpl implements Repo<Customer> {
     private DataSource dataSource;
 
-    @Autowired
+   // @Autowired
     public CustomerRepoImpl(DataSource dataSource) {
         this.dataSource = dataSource;
     }

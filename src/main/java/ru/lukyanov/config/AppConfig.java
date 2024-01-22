@@ -7,6 +7,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.PropertySource;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 import javax.sql.DataSource;
 import java.lang.reflect.InvocationTargetException;
@@ -14,11 +15,14 @@ import java.sql.Driver;
 
 @Configuration
 @ComponentScan("ru.lukyanov")
+//COMMENT BELOW @ TO USE YAML RESOURCES CONFIG
 @PropertySource("classpath:application.properties")
+@EnableTransactionManagement
 public class AppConfig {
 
 
-    //CONFIGURATION WITHOUT SPRING-BOOT-STARTER-JPA
+    //CONFIGURATION WITHOUT SPRING-BOOT-STARTER-JPA. WHEN USING SPRING BOOT CONFIG THE BELOW CODE CAN BE COMMENTED.
+    //THEN CHECK THE DIFFERENT NAME OF HIKARI CP.
     @Bean
     DataSource dataSource(
             @Value("${spring.datasource.url}") String dbUrl,

@@ -1,2 +1,15 @@
 
-G	java:S106"+Replace this use of System.out by a logger.(ê¾ú®8¦¥†Ò1
+X	java:S125"<This block of commented-out lines of code should be removed.(¡«øª8“¾¥€Ó1
+X	java:S125"<This block of commented-out lines of code should be removed.(×²’Ğ8“¾¥€Ó1
+G	java:S106"+Replace this use of System.out by a logger.(Ûû”»8˜¾¥€Ó1
+L	java:S106"+Replace this use of System.out by a logger.(¸‘ùêşÿÿÿÿ8¬§€Ó1
+G	java:S106""+Replace this use of System.out by a logger.(ø™¼ç8ñŠôÓ1
+‚
+java:S1128"fRemove this unused import 'org.springframework.context.annotation.AnnotationConfigApplicationContext'.(€¡¹;8 ²üÓ1
+[
+java:S1128"9Remove this unused import 'ru.lukyanov.config.AppConfig'.(ìÅùÿÿÿÿ8 ²üÓ1
+b
+java:S1128
+"@Remove this unused import 'ru.lukyanov.service.CustomerService'.(‡’Éúÿÿÿÿ8 ²üÓ1
+Q
+java:S1128"/Remove this unused import 'java.util.Optional'.(¨˜ëİüÿÿÿÿ8 ²üÓ1
